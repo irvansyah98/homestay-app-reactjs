@@ -1,0 +1,24 @@
+.app{
+  display: flex;
+}
+
+.main{
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.homestay{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.peta{
+  flex-grow: 1;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  background-color: steelblue;
+}
